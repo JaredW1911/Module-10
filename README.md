@@ -1,5 +1,4 @@
-# Team Profile Generator
-[![Issues](https://img.shields.io/github/issues/deckiedevs/team-profile-generator)](https://github.com/deckiedevs/team-profile-generator/issues) [![Issues](https://img.shields.io/github/contributors/deckiedevs/team-profile-generator)](https://github.com/deckiedevs/team-profile-generator/graphs/contributors) 
+# Team Profile Generator 
 
 ## Description
 A Node.js application to create a simple webpage featuring your development team's roster.
