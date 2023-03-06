@@ -6,7 +6,6 @@ const formatName = require('../utils/helper');
 
 const addEmployee = employeeInfo => {
 
-    // initiates html string for employee cards
     let allCards = '';
 
     employeeInfo.forEach(employee => {    
@@ -32,7 +31,6 @@ const addEmployee = employeeInfo => {
                 newEmployee = new Employee(formatName(firstName), formatName(lastName), id);
         };
 
-        // concatenates all employee cards
         allCards += `
 <div class="column is-one-quarter-desktop">
     <div class="card">

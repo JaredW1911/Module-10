@@ -4,14 +4,11 @@
 A Node.js application to create a simple webpage featuring your development team's roster.
 
 ## Contents
-* [Installation](#Installation)
-* [Usage](#Usage)
+* Installation
+* Usage
    * [Video Demo](#Video-Demo)
-   * [Screenshots](#Screenshots)
-* [Tests](#Tests)
-* [Questions](#Questions)
-* [Credits](#Credits)
-
+   * Screenshots
+* Tests
 
 ## Installation
 To use this application, please install: 

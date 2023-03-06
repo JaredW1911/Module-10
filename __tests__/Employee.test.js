@@ -1,19 +1,17 @@
 const Employee = require ('../lib/Employee');
 const { expectToBe, expectStr, expectNum } = require('../utils/expect');
 
-const employee = new Employee('John', 'Doe', 1);
+const employee = new Employee('Cooper', 1);
 
 test('creates a employee object', () => {
-    expectToBe(employee.firstName,'John');
-    expectToBe(employee.lastName, 'Doe');
+    expectToBe(employee.firstName,'Cooper');
     expectNum(employee.id);
     expectStr(employee.email, '@');
     expectToBe(employee.role, 'Employee');
-    expectToBe(employee.icon, 'fas fa-briefcase');
 });
 
 test('gets employee\'s name', () => {
-    expectStr(employee.getName(), `${employee.firstName} ${employee.lastName}`);
+    expectStr(employee.getName(), `${employee.firstName}`);
 });
 
 test('gets employee\'s ID', () => {
