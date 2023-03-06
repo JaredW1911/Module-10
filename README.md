@@ -35,7 +35,5 @@ npm install jest
 
 and run `npm run test` from the command line.
     
-## Questions
-If you have any questions about the repo, please contact me via email at jaredwilliams1019@gmail.com. You can find more of my work on my GitHub, [JaredW1911](https://github.com/JaredW1911/Module-10).
     
 
